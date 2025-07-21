@@ -1,0 +1,65 @@
+///********************************************************************************
+// * Copyright (c) 2023 Contributors to the Eclipse Foundation
+// *
+// * See the NOTICE file(s) distributed with this work for additional
+// * information regarding copyright ownership.
+// *
+// * This program and the accompanying materials are made available under the
+// * terms of the Eclipse Public License 2.0 which is available at
+// * http://www.eclipse.org/legal/epl-2.0
+// *
+// * SPDX-License-Identifier: EPL-2.0
+// ********************************************************************************/
+//package org.example.jfranalyzerbackend.exception;
+//
+//
+//import static org.example.jfranalyzerbackend.enums.CommonErrorCode.VALIDATION_FAILURE;
+//
+//
+//public class ValidationException extends ErrorCodeException {
+//
+//    /**
+//     * Create a new ValidationException with a specified error code and a message.
+//     *
+//     * @param errorCode error code
+//     * @param message   message
+//     */
+//    public ValidationException(ErrorCode errorCode, String message) {
+//        super(errorCode, message);
+//    }
+//
+//    /**
+//     * Create a new ValidationException with a specified error code.
+//     *
+//     * @param errorCode error code
+//     */
+//    public ValidationException(ErrorCode errorCode) {
+//        super(errorCode);
+//    }
+//
+//    /**
+//     * Create a new ValidationException with a message.
+//     *
+//     * @param message message
+//     */
+//    public ValidationException(String message) {
+//        super(VALIDATION_FAILURE, message);
+//    }
+//
+//    /**
+//     * Create a new ValidationException with a message and a cause.
+//     *
+//     * @param message message
+//     * @param cause   cause
+//     */
+//    public ValidationException(String message, Throwable cause) {
+//        super(VALIDATION_FAILURE, message, cause);
+//    }
+//
+//    /**
+//     * Create a new ValidationException.
+//     */
+//    public ValidationException() {
+//        super(VALIDATION_FAILURE);
+//    }
+//}
